@@ -6,22 +6,12 @@ let contrasena = document.getElementById('contrasena');
 //1. AGREGAR MAS CARACTERES ESPECIALES
 const cadenaCaracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()-_=+[]{}|;:,<.>/?";
 
-//2. Botón de limpiar
-function limpiar() {
-    // Vaciar el campo de entrada de cantidad
-    document.getElementById("cantidad").value = ""; // Usa .value para inputs
-    // Vaciar el contenido de la contraseña generada
-    document.getElementById("contrasena").value = ""; 
-    document.getElementById("resultado").value = ""; 
 
-}
 
 //3. VALIDAR SI LA CONTRASEÑA ES FUERTE O DÉBIL
 //Funcion para generar contraseñas
 
 function generar(){
-
-    document.getElementById("resultado").value = ""; 
 
     let numeroDigitado = parseInt (cantidad.value);
     console.log(numeroDigitado);
@@ -91,13 +81,20 @@ function generar(){
                 console.log(minus);
                 console.log(especial);
         }
-
+        //document.getElementById("resultado").value = ""; 
     } //fin if principal
         }//FIN FUNCION
 
- 
-console.log(typeof cantidad)
 
+//2. Botón de limpiar
+function limpiar() {
+    // Vaciar el campo de entrada de cantidad
+    document.getElementById("cantidad").value = ""; // Usa .value para inputs
+    // Vaciar el contenido de la contraseña generada
+    document.getElementById("contrasena").value = ""; 
+    document.getElementById("resultado").innerHTML = ""; 
+
+}
 
 /*console.log(cantidad)
 cantidad.value //Es en la consola del server

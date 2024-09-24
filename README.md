@@ -7,7 +7,7 @@ El propósito es como su nombre lo generar una contraseña que se segura para po
 
 
 
-Podrás encontrarlo aquí [GeneradorContraseñas]()
+Podrás encontrarlo aquí [GeneradorContraseñas](https://yeyami17.github.io/GeneradorContrase-as/)
 
 
  ### <font color="purple"> Tecnologías</font>
@@ -19,4 +19,4 @@ Podrás encontrarlo aquí [GeneradorContraseñas]()
 
 ### <font color="pink"> Captura del proyecto </font> 
 
-![Captura del Proyecto](/img/)
+![Captura del Proyecto](/assets/img/PROYECTO.JPG)
