@@ -3,7 +3,7 @@
 
 Proyecto creado durante el bootcamp de ALURA LATAM.
 
-El propósito es como su nombre lo generar una contraseña que se segura para poder ocuparse⭐💥 
+El propósito es generar una contraseña de forma aleatoria con los caracteres que le digamos de tal manera que sea segura para poder ocuparse. ⭐💥 
 
 
 
